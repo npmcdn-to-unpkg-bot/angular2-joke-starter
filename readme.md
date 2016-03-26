@@ -33,21 +33,22 @@ joke api explanation: http://www.icndb.com/api/
     7. implement OnInit life cycle hook
     8. introduce providers
     9. using promise
-    10. introduce *ngIf directive
+    10. introduce \*ngIf directive
     11. using http and observable, and HTTP_PROVIDERS, and include src file
 5. 2nd component - joke: move joke of the day to this new component
     1. introduce templateUrl
     2. introduce styles and styleUrls
 6. Routing - adding routing to joke-app
     1. introduce route config, use as default and include src file
-    2. introduce route-outlet, routeLink in html
-    3. refactor joke in joke-app to “dashboard” route
+    2. base href strategy
+    3. introduce route-outlet, routeLink in html
+    4. refactor joke in joke-app to “dashboard” route
 7. 3rd component - categories: display joke categories and list of joke under the selected category
     1. create category interface according to api http://api.icndb.com/categories
     2. categories list service according to http://api.icndb.com/categories
     3. create routing link
     4. introduce async pipe
-    5. introduce *ngFor directive and #
+    5. introduce \*ngFor directive and #
     6. introduce event (), o’clock show joke list under the selected category
     7. joke list api http://api.icndb.com/jokes/random/5?limitTo=[nerdy]
 8. 4th component - jokes - move the joke list to jokes component
